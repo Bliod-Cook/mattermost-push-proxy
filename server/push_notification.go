@@ -6,6 +6,7 @@ package server
 const (
 	PushNotifyApple   = "apple"
 	PushNotifyAndroid = "android"
+	PushNotifyNtfy    = "ntfy"
 
 	PushTypeMessage     = "message"
 	PushTypeClear       = "clear"

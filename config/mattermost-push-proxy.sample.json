@@ -38,6 +38,18 @@
             "ServiceFileLocation":""
         }
     ],
+    "NtfyPushSettings": [
+        {
+            "Type":"ntfy",
+            "ServerURL":"https://ntfy.sh",
+            "TopicPrefix":"mattermost",
+            "AuthorizationToken":"",
+            "Username":"",
+            "Password":"",
+            "Priority":"default",
+            "Tags":["mattermost","push"]
+        }
+    ],
     "EnableConsoleLog": true,
     "EnableFileLog": false,
     "LogFileLocation": "",
