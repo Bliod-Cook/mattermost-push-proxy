@@ -2,6 +2,14 @@
 
 See https://developers.mattermost.com/contribute/mobile/push-notifications/service/
 
+## ntfy backend support
+
+This push proxy supports delivering notifications through [ntfy](https://ntfy.sh/).
+
+Configure `NtfyPushSettings` in your JSON config and set the incoming push `platform`
+to your configured ntfy `Type` (for example, `"ntfy"`). The proxy uses `device_id` as
+the ntfy topic suffix and posts messages to `ServerURL`.
+
 
 # How to Release
 
